@@ -6,12 +6,12 @@
   "author": "mlmdflr",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mlmdflr/tampermonkey-ts-template"
+    "url": "https://github.com/mlmdflr/zhihu-photo-sharing"
   },
   "keywords": [
     "tampermonkey",
-    "typescript",
-    "template"
+    "sharing",
+    "zhihu"
   ],
   "scripts": {
     "dev": "cross-env TS_NODE_PROJECT=\"tsconfig-webpack-config.json\" webpack --watch --mode=development",
