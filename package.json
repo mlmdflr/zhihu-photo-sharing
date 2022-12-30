@@ -1,0 +1,37 @@
+{
+  "version": "0.0.1",
+  "name": "zhihu-photo-sharing",
+  "description": "知乎分享不用在手动长截图了",
+  "license": "MIT",
+  "author": "mlmdflr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mlmdflr/tampermonkey-ts-template"
+  },
+  "keywords": [
+    "tampermonkey",
+    "typescript",
+    "template"
+  ],
+  "scripts": {
+    "dev": "cross-env TS_NODE_PROJECT=\"tsconfig-webpack-config.json\" webpack --watch --mode=development",
+    "build": "esno build.ts && cross-env TS_NODE_PROJECT=\"tsconfig-webpack-config.json\" webpack --mode=production --node-env=production",
+    "build:dev": "cross-env TS_NODE_PROJECT=\"tsconfig-webpack-config.json\" webpack --mode=development"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.9",
+    "@types/tampermonkey": "^4.0.5",
+    "cross-env": "^7.0.3",
+    "esbuild-loader": "^2.19.0",
+    "esno": "^0.16.3",
+    "prettier": "^2.7.1",
+    "ts-loader": "^9.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "html-to-image": "^1.11.3"
+  }
+}
